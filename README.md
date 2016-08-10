@@ -49,11 +49,20 @@ Git stores information about your project in a **repository** (often called a re
 
 Your computer holds a **local repository**. It's a copy of all of the changes you've ever committed on your machine. GitHub holds a **remote repository**. It's a copy of all of the changes you've ever committed and pushed to the web.
 
+### Describing the Workflow
+
 When you're working, you are editing a working copy. You save it with `cmd` + `s` just as you've always saved documents on your computer. You should be saving **constantly**.
 
-When you're ready to save a "state of the code"
+When you're ready to save a "state of the code", you need to add files to the staging area. First use `git status` to check which files you've edited since you last preserved the state of the code. Terminal will print for you a report of every file that you've saved, added, or deleted since you last committed.
 
-### Visaulizing your workflow
+Next, add individual files by saying `git add <file>` where <file> is the name of the file you want to save. Complete this one by one for every file you want to stage. Alternatively, if you know that you want to stage all of the files that have been edited (common case) use `git add .` - the `.` means *all* here. Again, use `git status` to see which files are staged and which aren't.
+
+Finally, commit your staged changes with `git commit -m "add a descriptive message here"`. The `-m` means *message* and gives you a place to add a commit message. If you forget the `-m` terminal will automatically open a text editor window for you to give a message. Your commit messages should be brief but descriptive. Aim for fewer than 10 words, but really describe what you achieved since your last commit. If it's easy to write a commit message, you're doing a good job breaking your work into smaller tasks and committing your work often.
+
+Once you're ready for your local commits to become available online, you need to push the code to the remote repository on GitHub, named `origin`. Start with another `git status` to see how many commits you've completed since you last pushed. Then use the command `git push origin master` to make the remote repo match your local repo.
+
+
+### Visaulizing the Workflow
 <figure>
   <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" alt="Local and remote">
   <br>
@@ -84,12 +93,16 @@ When you're ready to save a "state of the code"
 ### Check for Understanding
 
 <details>
-  <summary>In pairs at the board, draw a diagram that shows the commands you might use over time and the impact they would have on your local and remote repositories. Label the repositories, your machine, GitHub, and</summary>
-  <p></p>
+  <summary>In pairs at the board, draw a diagram that shows the commands you might use over time and the impact they would have on your local and remote repositories. Label the repositories, your machine, GitHub, and a collaborator's machine.</summary>
+  <p>
+    <figure>
+      <img src="https://camo.githubusercontent.com/d4de2fdb747fec0d3dc67b1640f37c12f3786f5b/687474703a2f2f6a6c6f72642e75732f6769742d69742f6173736574732f696d67732f72656d6f7465732e706e67" alt="Local and remote">
+    </figure>
+  </p>
 </details>
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [training](#)
+Refine the skills covered in this workshop with this [training](https://github.com/sf-wdi-31/personal-portfolio)
 
 ## Closing Thoughts
 - review objectives & hierarchy of importance
