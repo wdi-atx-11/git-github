@@ -98,19 +98,27 @@ Once you're ready for your local commits to become available online, you need to
     <figure>
       <img src="https://camo.githubusercontent.com/d4de2fdb747fec0d3dc67b1640f37c12f3786f5b/687474703a2f2f6a6c6f72642e75732f6769742d69742f6173736574732f696d67732f72656d6f7465732e706e67" alt="Local and remote">
     </figure>
+    <img src="https://cloud.githubusercontent.com/assets/6520345/17574607/8515d59a-5f17-11e6-85be-89fa8ad9962c.png" alt="Local and remote">
+
   </p>
 </details>
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [training](https://github.com/sf-wdi-31/personal-portfolio)
+Practice the skills covered in this workshop with this [training](https://github.com/sf-wdi-31/personal-portfolio)
+
+## More ahead
+- This is just the beginning of our interactions with git and GitHub. One important additional feature that we'll explore later is the capacity to have multiple branches. On each branch, you will work on a specific feature. When you've completed that feature you will merge the branch into the `master` branch of the project. You keep the `master` branch tidy and publish it. Other development branches are the place for experimentation.
+- We'll also complete another workshop on collaborating in GitHub with the specific aim of making sure versions don't have conflicts - different changes to the same piece of code.
 
 ## Closing Thoughts
-- review objectives & hierarchy of importance
-- look ahead & link to future workshops
-- clarify expectations and what developers should know by now
-- reiterate “the why” with a perspective of your intentions
-- create an active recall
-- Check for understanding
+- This workflow has a lot of commands and procedure and will take a some practice to internalize. It's worth getting into your muscle memory.
+- after this workshop, you should have a sense of the importance of git and GitHub, understand the workflow and the meanings of the git commands. You should be able to write code and commit it with a good commit message.
+- Git and GitHub will be part of your daily routine every day you code. It's important to get to know it now. Comfort with git is a baseline skill that all companies look for in developers.
+- Take a moment to see if you can, without looking at any other resources, handwrite the order of commands needed to commit your work and push it to GitHub. Include `git status`.
+- How'd you do? ✊-5.
 
 ## Additional Resources
-- [External Resource](#)
+- [git, a simple guide](http://rogerdudler.github.io/git-guide/)
+- [GitHub help's list of resouces](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+- in terminal, `git help`
+- [branching, which we'll cover later](https://guides.github.com/introduction/flow/)
