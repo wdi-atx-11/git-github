@@ -45,56 +45,51 @@ More specifically, **a version control system allows you to:**
 
 **Git** is a version control system and **GitHub** is a social network built around git.
 
-Git stores information about your project in a **repository**. A git repository holds the current version of your project's files, as well as the complete history of all past versions.
+Git stores information about your project in a **repository** (often called a repo). A git repository holds the current version of your project's files, as well as the complete history of all past versions.
+
+Your computer holds a **local repository**. It's a copy of all of the changes you've ever committed on your machine. GitHub holds a **remote repository**. It's a copy of all of the changes you've ever committed and pushed to the web.
+
+When you're working, you are editing a working copy. You save it with `cmd` + `s` just as you've always saved documents on your computer. You should be saving **constantly**.
+
+When you're ready to save a "state of the code"
+
+### Visaulizing your workflow
+<figure>
+  <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" alt="Local and remote">
+  <br>
+  <figcaption>The table below has all of the key words from this diagram bolded. </figcaption>
+</figure>
 
 ### Git Basics
 
 | Action | Command |
 | :--- | :--- |
 | Create new git repository | `git init` |
-| Copy an existing repository (**clone**) from the internet onto your computer| `git clone <repo url>`|
+| Copy (**clone**) an existing repository from the internet (remote) onto your computer (local)| `git clone <repo url>`|
 | Check status of git repo | `git status` |
 | Check differences since last commit | `git diff <filename>` |
 | Add file to git repo (**stage** for commit) | `git add <filename>` |
-| Add (**stage**) all files in current directory | `git add .` |
-| **Commit** (save) a version | `git commit -m "message describing changes"` |
+| Add (**stage**) all edited files in the current directory | `git add .` |
+| **Commit** (save) a version into the local repository | `git commit -m "message describing changes"` |
 | **Push** commits to GitHub (remote repository) | `git push <remote> <branch>` |
 | **Pull** commits from the remote repository | `git pull <remote> <branch>` |
 | Show version history | `git log <filename>` |
 | Get help with git commands | `git help <command>` |
 
 
-### Visaulizing your workflow
-<figure>
-  <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" alt="Local and remote">
-  <br>
-  <figcaption>The table above has all of the key words from this diagram bolded. </figcaption>
-</figure>
 
-<!-- framing on *how* the workshop will be conducted ("pair programming"/"think pair share"/"I do, you do, we do"/etc) -->
->***Note:*** *This can be a pair programming activity or done independently.*
 
-#### Non-section heading
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fugiat autem voluptate officia voluptatum tempore repudiandae illum libero. Dolor aliquam minima sit velit, quis quisquam delectus explicabo nam id facilis.
-
-<!-- File path -->
-**/directory/file-name.js**
-
-```js
-// code here
-```
 
 
 ### Check for Understanding
 
 <details>
-  <summary>Thought provoking question</summary>
-  <p>Mind-blowing explanation</p>
+  <summary>In pairs at the board, draw a diagram that shows the commands you might use over time and the impact they would have on your local and remote repositories. Label the repositories, your machine, GitHub, and</summary>
+  <p></p>
 </details>
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [lab](#)
+Refine the skills covered in this workshop with this [training](#)
 
 ## Closing Thoughts
 - review objectives & hierarchy of importance
