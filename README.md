@@ -21,7 +21,6 @@ Git is the industry standard tool for version control. That is, when you write c
 - draw a model of local, remote, and working copies of their repositories.
 - write some code to improve their work, commit the changes, and write a strong commit message.
 - deploy their first live website using gh-pages.
-<!-- - navigate to old commits in their projects both on their machine and on GitHub. -->
 
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
