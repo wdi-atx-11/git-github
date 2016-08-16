@@ -42,7 +42,7 @@ More specifically, **a version control system allows you to:**
 * Track down the origin of bugs in the code
 * Back up your projects on a remote server
 
-**Git** is a version control system and **GitHub** is a social network built around git.
+**Git** is a version control system and **GitHub** is a social network built around git. It allows you to see and use other people's code, share your code, and gain insight into your repositories. GitHub provides great tools to track and interact with your codebase.
 
 Git stores information about your project in a **repository** (often called a repo). A git repository holds the current version of your project's files, as well as the complete history of all past versions.
 
