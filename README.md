@@ -52,7 +52,7 @@ Your computer holds a **local repository**. It's a copy of all of the changes yo
 
 ### Describing the Workflow
 
-![]()
+![image](https://cloud.githubusercontent.com/assets/6520345/17714071/f2b675d8-63b2-11e6-88b0-6a92d508c7e2.png)
 
 When you're working, you are editing a working copy. You save it with `cmd` + `s` just as you've always saved documents on your computer. You should be saving **constantly**.
 
