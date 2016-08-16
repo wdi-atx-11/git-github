@@ -13,6 +13,8 @@ Market: SF
 
 Git is the industry standard tool for version control. That is, when you write code, git helps you track all of the changes that you've made over time to ensure that no work is lost. GitHub is the tool that takes git and makes it collaborative. It helps you make sure that every developer's version of the code is the same between different computers. GitHub has also allowed unprecedented sharing of code and tools through the open source movement. You can freely access any code that somebody has made public and use it in your own projects.
 
+
+
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
@@ -49,6 +51,8 @@ Git stores information about your project in a **repository** (often called a re
 Your computer holds a **local repository**. It's a copy of all of the changes you've ever committed on your machine. GitHub holds a **remote repository**. It's a copy of all of the changes you've ever committed and pushed to the web.
 
 ### Describing the Workflow
+
+![]()
 
 When you're working, you are editing a working copy. You save it with `cmd` + `s` just as you've always saved documents on your computer. You should be saving **constantly**.
 
