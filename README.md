@@ -52,15 +52,15 @@ Your computer holds a **local repository**. It's a copy of all of the changes yo
 
 ### Describing the Workflow
 
-![image](https://cloud.githubusercontent.com/assets/6520345/17714071/f2b675d8-63b2-11e6-88b0-6a92d508c7e2.png)
-
 When you're working, you are editing a working copy. You save it with `cmd` + `s` just as you've always saved documents on your computer. You should be saving **constantly**.
 
 When you're ready to save a "state of the code", you need to add files to the staging area. First use `git status` to check which files you've edited since you last preserved the state of the code. Terminal will print for you a report of every file that you've saved, added, or deleted since you last committed.
 
 Next, add individual files by saying `git add <file>` where <file> is the name of the file you want to save. Complete this one by one for every file you want to stage. Alternatively, if you know that you want to stage all of the files that have been edited (common case) use `git add .` - the `.` means *all* here. Again, use `git status` to see which files are staged and which aren't.
 
-Finally, commit your staged changes with `git commit -m "add a descriptive message here"`. The `-m` means *message* and gives you a place to add a commit message. If you forget the `-m` terminal will automatically open a text editor window for you to give a message. Your commit messages should be brief but descriptive. Aim for fewer than 10 words, but really describe what you achieved since your last commit. If it's easy to write a commit message, you're doing a good job breaking your work into smaller tasks and committing your work often.
+![image](https://cloud.githubusercontent.com/assets/6520345/17714071/f2b675d8-63b2-11e6-88b0-6a92d508c7e2.png)
+
+Finally, commit your staged changes with `git commit -m "add a descriptive message here"`. The `-m` means *message* and gives you a place to add a commit message. If you forget the `-m` terminal will automatically open a text editor window for you to give a message. Your commit messages should be brief but descriptive. Aim for fewer than 10 words, but really describe what you achieved since your last commit. If it's easy to write a commit message, you're doing a good job breaking your work into smaller tasks and committing your work often. **COMMIT EARLY, COMMIT OFTEN!**
 
 Once you're ready for your local commits to become available online, you need to push the code to the remote repository on GitHub, named `origin`. Start with another `git status` to see how many commits you've completed since you last pushed. Then use the command `git push origin master` to make the remote repo match your local repo.
 
