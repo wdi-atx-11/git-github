@@ -66,7 +66,7 @@ Once you're ready for your local commits to become available online, you need to
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/17714099/24641086-63b3-11e6-93f1-ffcfb5a60433.png)
 
-### Visaulizing the Workflow
+### Visualizing the Workflow
 <figure>
   <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" alt="Local and remote">
   <br>
